@@ -3,8 +3,7 @@
              xsi:schemaLocation="http://java.sun.com/xml/ns/persistence
                       http://java.sun.com/xml/ns/persistence/persistence_2_0.xsd"
   version="2.0">
-
-	<persistence-unit name="jpa-example">
+	<persistence-unit name="jpa-example"> 
 		<properties>
 			<!-- Configuring JDBC properties -->
 			<property name="javax.persistence.jdbc.url" value="jdbc:mysql://localhost/myhibernatedb" />
