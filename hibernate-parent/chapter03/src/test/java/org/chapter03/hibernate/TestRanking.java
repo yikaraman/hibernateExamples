@@ -100,6 +100,7 @@ public class TestRanking {
       createData(session, "J. C. Smell", "Gene Showrama", "Java", 6);
       createData(session, "J. C. Smell", "Scottball Most", "Java", 7);
       createData(session, "J. C. Smell", "Drew Lombardo", "Java", 8);
+      createData(session, "J. C. Smell", "Drew Lombardo2", "Java", 8);
       tx.commit();
       session.close();
    }

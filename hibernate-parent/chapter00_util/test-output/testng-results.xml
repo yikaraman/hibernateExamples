@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="0" total="6" passed="6">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="1174" started-at="2016-02-07T19:06:45Z" finished-at="2016-02-07T19:06:46Z">
+  <suite name="Default suite" duration-ms="1285" started-at="2016-02-14T18:59:53Z" finished-at="2016-02-14T18:59:54Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="1174" started-at="2016-02-07T19:06:45Z" finished-at="2016-02-07T19:06:46Z">
+    <test name="Default test" duration-ms="1285" started-at="2016-02-14T18:59:53Z" finished-at="2016-02-14T18:59:54Z">
       <class name="org.chapter00_util.JPA.JPASessionUtilTest">
-        <test-method status="PASS" signature="getEntityManager()[pri:0, instance:org.chapter00_util.JPA.JPASessionUtilTest@3ba0fcfb]" name="getEntityManager" duration-ms="1072" started-at="2016-02-07T21:06:45Z" finished-at="2016-02-07T21:06:46Z">
+        <test-method status="PASS" signature="getEntityManager()[pri:0, instance:org.chapter00_util.JPA.JPASessionUtilTest@664bb5d8]" name="getEntityManager" duration-ms="1081" started-at="2016-02-14T20:59:53Z" finished-at="2016-02-14T20:59:54Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getEntityManager -->
-        <test-method status="PASS" signature="getSession()[pri:0, instance:org.chapter00_util.JPA.JPASessionUtilTest@3ba0fcfb]" name="getSession" duration-ms="1" started-at="2016-02-07T21:06:46Z" finished-at="2016-02-07T21:06:46Z">
+        <test-method status="PASS" signature="getSession()[pri:0, instance:org.chapter00_util.JPA.JPASessionUtilTest@664bb5d8]" name="getSession" duration-ms="1" started-at="2016-02-14T20:59:54Z" finished-at="2016-02-14T20:59:54Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getSession -->
-        <test-method status="PASS" signature="nonexistentEntityManagerName()[pri:0, instance:org.chapter00_util.JPA.JPASessionUtilTest@3ba0fcfb]" name="nonexistentEntityManagerName" duration-ms="18" started-at="2016-02-07T21:06:46Z" finished-at="2016-02-07T21:06:46Z">
+        <test-method status="PASS" signature="nonexistentEntityManagerName()[pri:0, instance:org.chapter00_util.JPA.JPASessionUtilTest@664bb5d8]" name="nonexistentEntityManagerName" duration-ms="19" started-at="2016-02-14T20:59:54Z" finished-at="2016-02-14T20:59:54Z">
           <exception class="javax.persistence.PersistenceException">
             <message>
               <![CDATA[No Persistence provider for EntityManager named nonexistent]]>
@@ -56,7 +56,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- nonexistentEntityManagerName -->
-        <test-method status="PASS" signature="nonexistentSessionName()[pri:0, instance:org.chapter00_util.JPA.JPASessionUtilTest@3ba0fcfb]" name="nonexistentSessionName" duration-ms="16" started-at="2016-02-07T21:06:46Z" finished-at="2016-02-07T21:06:46Z">
+        <test-method status="PASS" signature="nonexistentSessionName()[pri:0, instance:org.chapter00_util.JPA.JPASessionUtilTest@664bb5d8]" name="nonexistentSessionName" duration-ms="15" started-at="2016-02-14T20:59:54Z" finished-at="2016-02-14T20:59:54Z">
           <exception class="javax.persistence.PersistenceException">
             <message>
               <![CDATA[No Persistence provider for EntityManager named nonexistent]]>
@@ -98,11 +98,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- nonexistentSessionName -->
-        <test-method status="PASS" signature="testEntityManager()[pri:0, instance:org.chapter00_util.JPA.JPASessionUtilTest@3ba0fcfb]" name="testEntityManager" duration-ms="44" started-at="2016-02-07T21:06:46Z" finished-at="2016-02-07T21:06:46Z">
+        <test-method status="PASS" signature="testEntityManager()[pri:0, instance:org.chapter00_util.JPA.JPASessionUtilTest@664bb5d8]" name="testEntityManager" duration-ms="141" started-at="2016-02-14T20:59:54Z" finished-at="2016-02-14T20:59:54Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testEntityManager -->
-        <test-method status="PASS" signature="testSession()[pri:0, instance:org.chapter00_util.JPA.JPASessionUtilTest@3ba0fcfb]" name="testSession" duration-ms="2" started-at="2016-02-07T21:06:46Z" finished-at="2016-02-07T21:06:46Z">
+        <test-method status="PASS" signature="testSession()[pri:0, instance:org.chapter00_util.JPA.JPASessionUtilTest@664bb5d8]" name="testSession" duration-ms="5" started-at="2016-02-14T20:59:54Z" finished-at="2016-02-14T20:59:54Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSession -->
