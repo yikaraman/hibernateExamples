@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC
+"-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd">
+
+<hibernate-configuration>
+	<session-factory>
+		<property name="hibernate.bytecode.use_reflection_optimizer">false</property>
+		<property name="hibernate.connection.driver_class">com.mysql.jdbc.Driver</property>
+		<property name="hibernate.connection.username">root</property>
+		<property name="hibernate.connection.password">root</property>
+		<property name="hibernate.connection.url">jdbc:mysql://localhost:3306/myhibernatedb</property>
+		<property name="hibernate.dialect">org.hibernate.dialect.MySQLDialect</property>
+		<property name="show_sql">true</property>
+		<property name="hbm2ddl.auto">create</property>
+		<!-- <mapping resource="message.hbm.xml"></mapping> -->
+		<mapping class="org.chapter04.broken.Email" />
+		<mapping class="org.chapter04.broken.Message" />
+		<mapping class="org.chapter04.mapped.Email" />
+		<mapping class="org.chapter04.mapped.Message" />
+		<mapping class="org.chapter04.model.MyObjSimple" />
+		
+		<mapping class="org.chapter04.identity.GeneratedAutoIdentity"/>
+        <mapping class="org.chapter04.identity.GeneratedIdentityIdentity"/>
+        <mapping class="org.chapter04.identity.GeneratedTableIdentity"/>
+        <mapping class="org.chapter04.identity.GeneratedSequenceIdentity"/>
+        <mapping class="org.chapter04.identity.NongeneratedIdentity"/>
+		
+		
+	</session-factory>
+</hibernate-configuration>
