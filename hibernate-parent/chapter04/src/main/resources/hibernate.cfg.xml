@@ -19,13 +19,15 @@
 		<mapping class="org.chapter04.mapped.Email" />
 		<mapping class="org.chapter04.mapped.Message" />
 		<mapping class="org.chapter04.model.MyObjSimple" />
-		
+		<!--
 		<mapping class="org.chapter04.identity.GeneratedAutoIdentity"/>
         <mapping class="org.chapter04.identity.GeneratedIdentityIdentity"/>
         <mapping class="org.chapter04.identity.GeneratedTableIdentity"/>
         <mapping class="org.chapter04.identity.GeneratedSequenceIdentity"/>
         <mapping class="org.chapter04.identity.NongeneratedIdentity"/>
+		-->
 		
-		
+		<mapping class="org.chapter04.orphan.Library"/>
+        <mapping class="org.chapter04.orphan.Book"/>
 	</session-factory>
 </hibernate-configuration>
