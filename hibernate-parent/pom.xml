@@ -97,5 +97,6 @@
 		<module>chapter03</module>
 		<module>chapter00_util</module>
 		<module>chapter04</module>
+		<module>chapter06</module>
 	</modules>
 </project>
